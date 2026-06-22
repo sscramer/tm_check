@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-06-22T10:06:36+09:00",
+  "current": {
+    "checkedAt": null,
+    "status": "unknown",
+    "latencyMs": null,
+    "message": "監視ログがまだありません"
+  },
+  "summary": {
+    "windowStart": "07:30",
+    "windowEnd": "09:00",
+    "checkIntervalSeconds": 60,
+    "publishIntervalMinutes": 10,
+    "successCount": 0,
+    "failCount": 0
+  },
+  "history": []
+}

@@ -1,0 +1,191 @@
+:root {
+  color-scheme: light;
+  font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", Meiryo, system-ui, sans-serif;
+  background: #f5f7f9;
+  color: #1d252d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+.page {
+  width: min(1080px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 32px 0;
+}
+
+.status-panel {
+  display: grid;
+  gap: 24px;
+  padding: 28px;
+  border: 1px solid #d7dee5;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.label {
+  margin: 0 0 8px;
+  color: #526171;
+  font-size: 14px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 42px;
+  line-height: 1.1;
+}
+
+.is-success h1 {
+  color: #146c43;
+}
+
+.is-fail h1 {
+  color: #b42318;
+}
+
+.is-unknown h1 {
+  color: #5f6b7a;
+}
+
+.meta-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin: 0;
+}
+
+.meta-grid div,
+.summary div {
+  min-width: 0;
+  padding: 14px;
+  border: 1px solid #dfe5eb;
+  border-radius: 8px;
+  background: #fbfcfd;
+}
+
+dt {
+  color: #667789;
+  font-size: 13px;
+}
+
+dd {
+  margin: 6px 0 0;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+
+.message {
+  margin: 0;
+  color: #384756;
+}
+
+.summary {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin: 16px 0 28px;
+}
+
+.metric-value,
+.metric-label {
+  display: block;
+}
+
+.metric-value {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.metric-label {
+  margin-top: 4px;
+  color: #667789;
+  font-size: 13px;
+}
+
+.log-section h2 {
+  margin: 0 0 12px;
+  font-size: 20px;
+}
+
+.table-wrap {
+  overflow-x: auto;
+  border: 1px solid #d7dee5;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+table {
+  width: 100%;
+  min-width: 720px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 13px 14px;
+  border-bottom: 1px solid #e6ebf0;
+  text-align: left;
+  font-size: 14px;
+}
+
+th {
+  color: #526171;
+  background: #f8fafb;
+  font-weight: 700;
+}
+
+tr:last-child td {
+  border-bottom: 0;
+}
+
+.badge {
+  display: inline-flex;
+  min-width: 52px;
+  justify-content: center;
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-weight: 700;
+}
+
+.badge.success {
+  color: #146c43;
+  background: #dff3e9;
+}
+
+.badge.fail {
+  color: #b42318;
+  background: #ffe4e0;
+}
+
+@media (max-width: 760px) {
+  .page {
+    width: min(100% - 20px, 1080px);
+    padding: 20px 0;
+  }
+
+  .status-panel {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 34px;
+  }
+
+  .meta-grid,
+  .summary {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 460px) {
+  .meta-grid,
+  .summary {
+    grid-template-columns: 1fr;
+  }
+}
