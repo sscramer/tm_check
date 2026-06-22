@@ -43,3 +43,12 @@ export function isWithinWindow(date, timeZone, start, end) {
   }
   return current >= startMinutes || current <= endMinutes;
 }
+
+export function zonedHourKey(date, timeZone) {
+  const p = zonedParts(date, timeZone);
+  return `${p.year}-${p.month}-${p.day}T${p.hour}`;
+}
+
+export function zonedMinute(date, timeZone) {
+  return Number(zonedParts(date, timeZone).minute);
+}

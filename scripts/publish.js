@@ -14,10 +14,20 @@ function summarize(history) {
     windowStart: config.windowStart,
     windowEnd: config.windowEnd,
     checkIntervalSeconds: 60,
+    outsideCheckIntervalMinutes: 60,
+    outsideRetryIntervalMinutes: config.outsideRetryIntervalMinutes,
+    outsideRetryAttempts: config.outsideRetryAttempts,
     publishIntervalMinutes: 10,
     successCount,
     failCount
   };
+}
+
+function readCurrentPublishedStatus() {
+  if (!fs.existsSync(config.statusFile)) {
+    return null;
+  }
+  return JSON.parse(fs.readFileSync(config.statusFile, "utf8"));
 }
 
 function git(args) {
@@ -42,11 +52,6 @@ function commitAndPush() {
 }
 
 const now = new Date();
-if (!force && !isWithinWindow(now, config.timeZone, config.publishStart, config.publishEnd)) {
-  console.log("outside publish window");
-  process.exit(0);
-}
-
 const history = readHistory(config.historyFile);
 const publicHistory = history.slice(-config.publicHistoryLimit).reverse();
 const current = history.length > 0 ? history[history.length - 1] : {
@@ -55,6 +60,14 @@ const current = history.length > 0 ? history[history.length - 1] : {
   latencyMs: null,
   message: "監視ログがまだありません"
 };
+const existing = readCurrentPublishedStatus();
+const hasUnpublishedCheck = (existing?.current?.checkedAt || null) !== (current.checkedAt || null);
+const inPublishWindow = isWithinWindow(now, config.timeZone, config.publishStart, config.publishEnd);
+
+if (!force && !inPublishWindow && !hasUnpublishedCheck) {
+  console.log("outside publish window and no unpublished checks");
+  process.exit(0);
+}
 
 const payload = {
   generatedAt: isoInTimeZone(now, config.timeZone),
