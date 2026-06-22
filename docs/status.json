@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-22T10:30:10+09:00",
+  "generatedAt": "2026-06-22T10:40:09+09:00",
   "current": {
-    "checkedAt": "2026-06-22T10:29:10+09:00",
+    "checkedAt": "2026-06-22T10:39:10+09:00",
     "status": "success",
-    "latencyMs": 572,
+    "latencyMs": 631,
     "message": "ログイン確認成功"
   },
   "summary": {
@@ -11,10 +11,70 @@
     "windowEnd": "23:59",
     "checkIntervalSeconds": 60,
     "publishIntervalMinutes": 10,
-    "successCount": 18,
+    "successCount": 28,
     "failCount": 2
   },
   "history": [
+    {
+      "checkedAt": "2026-06-22T10:39:10+09:00",
+      "status": "success",
+      "latencyMs": 631,
+      "message": "ログイン確認成功"
+    },
+    {
+      "checkedAt": "2026-06-22T10:38:09+09:00",
+      "status": "success",
+      "latencyMs": 684,
+      "message": "ログイン確認成功"
+    },
+    {
+      "checkedAt": "2026-06-22T10:37:09+09:00",
+      "status": "success",
+      "latencyMs": 716,
+      "message": "ログイン確認成功"
+    },
+    {
+      "checkedAt": "2026-06-22T10:36:09+09:00",
+      "status": "success",
+      "latencyMs": 565,
+      "message": "ログイン確認成功"
+    },
+    {
+      "checkedAt": "2026-06-22T10:35:10+09:00",
+      "status": "success",
+      "latencyMs": 599,
+      "message": "ログイン確認成功"
+    },
+    {
+      "checkedAt": "2026-06-22T10:34:01+09:00",
+      "status": "success",
+      "latencyMs": 661,
+      "message": "ログイン確認成功"
+    },
+    {
+      "checkedAt": "2026-06-22T10:33:01+09:00",
+      "status": "success",
+      "latencyMs": 621,
+      "message": "ログイン確認成功"
+    },
+    {
+      "checkedAt": "2026-06-22T10:32:03+09:00",
+      "status": "success",
+      "latencyMs": 652,
+      "message": "ログイン確認成功"
+    },
+    {
+      "checkedAt": "2026-06-22T10:31:10+09:00",
+      "status": "success",
+      "latencyMs": 589,
+      "message": "ログイン確認成功"
+    },
+    {
+      "checkedAt": "2026-06-22T10:30:10+09:00",
+      "status": "success",
+      "latencyMs": 646,
+      "message": "ログイン確認成功"
+    },
     {
       "checkedAt": "2026-06-22T10:29:10+09:00",
       "status": "success",
