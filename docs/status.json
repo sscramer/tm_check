@@ -1,20 +1,26 @@
 {
-  "generatedAt": "2026-06-22T10:41:09+09:00",
+  "generatedAt": "2026-06-22T10:41:53+09:00",
   "current": {
-    "checkedAt": "2026-06-22T10:40:10+09:00",
+    "checkedAt": "2026-06-22T10:41:10+09:00",
     "status": "success",
-    "latencyMs": 626,
+    "latencyMs": 668,
     "message": "ログイン確認成功"
   },
   "summary": {
-    "windowStart": "00:00",
-    "windowEnd": "23:59",
+    "windowStart": "07:30",
+    "windowEnd": "09:00",
     "checkIntervalSeconds": 60,
     "publishIntervalMinutes": 10,
-    "successCount": 29,
+    "successCount": 30,
     "failCount": 0
   },
   "history": [
+    {
+      "checkedAt": "2026-06-22T10:41:10+09:00",
+      "status": "success",
+      "latencyMs": 668,
+      "message": "ログイン確認成功"
+    },
     {
       "checkedAt": "2026-06-22T10:40:10+09:00",
       "status": "success",
