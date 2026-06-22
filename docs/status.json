@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-22T10:40:09+09:00",
+  "generatedAt": "2026-06-22T10:41:09+09:00",
   "current": {
-    "checkedAt": "2026-06-22T10:39:10+09:00",
+    "checkedAt": "2026-06-22T10:40:10+09:00",
     "status": "success",
-    "latencyMs": 631,
+    "latencyMs": 626,
     "message": "ログイン確認成功"
   },
   "summary": {
@@ -11,10 +11,16 @@
     "windowEnd": "23:59",
     "checkIntervalSeconds": 60,
     "publishIntervalMinutes": 10,
-    "successCount": 28,
-    "failCount": 2
+    "successCount": 29,
+    "failCount": 0
   },
   "history": [
+    {
+      "checkedAt": "2026-06-22T10:40:10+09:00",
+      "status": "success",
+      "latencyMs": 626,
+      "message": "ログイン確認成功"
+    },
     {
       "checkedAt": "2026-06-22T10:39:10+09:00",
       "status": "success",
@@ -182,18 +188,6 @@
       "status": "success",
       "latencyMs": 664,
       "message": "ログイン確認成功"
-    },
-    {
-      "checkedAt": "2026-06-22T10:12:09+09:00",
-      "status": "fail",
-      "latencyMs": 0,
-      "message": "missing credentials"
-    },
-    {
-      "checkedAt": "2026-06-22T10:11:24+09:00",
-      "status": "fail",
-      "latencyMs": 78,
-      "message": "missing credentials"
     }
   ]
 }
