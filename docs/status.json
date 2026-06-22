@@ -1,20 +1,38 @@
 {
-  "generatedAt": "2026-06-22T10:11:24+09:00",
+  "generatedAt": "2026-06-22T10:13:56+09:00",
   "current": {
-    "checkedAt": "2026-06-22T10:11:24+09:00",
-    "status": "fail",
-    "latencyMs": 78,
-    "message": "missing credentials"
+    "checkedAt": "2026-06-22T10:13:55+09:00",
+    "status": "success",
+    "latencyMs": 645,
+    "message": "ログイン確認成功"
   },
   "summary": {
     "windowStart": "00:00",
     "windowEnd": "23:59",
     "checkIntervalSeconds": 60,
     "publishIntervalMinutes": 10,
-    "successCount": 0,
-    "failCount": 1
+    "successCount": 2,
+    "failCount": 2
   },
   "history": [
+    {
+      "checkedAt": "2026-06-22T10:13:55+09:00",
+      "status": "success",
+      "latencyMs": 645,
+      "message": "ログイン確認成功"
+    },
+    {
+      "checkedAt": "2026-06-22T10:13:10+09:00",
+      "status": "success",
+      "latencyMs": 664,
+      "message": "ログイン確認成功"
+    },
+    {
+      "checkedAt": "2026-06-22T10:12:09+09:00",
+      "status": "fail",
+      "latencyMs": 0,
+      "message": "missing credentials"
+    },
     {
       "checkedAt": "2026-06-22T10:11:24+09:00",
       "status": "fail",
