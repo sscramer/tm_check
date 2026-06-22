@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-22T10:13:56+09:00",
+  "generatedAt": "2026-06-22T10:20:10+09:00",
   "current": {
-    "checkedAt": "2026-06-22T10:13:55+09:00",
+    "checkedAt": "2026-06-22T10:19:10+09:00",
     "status": "success",
-    "latencyMs": 645,
+    "latencyMs": 598,
     "message": "ログイン確認成功"
   },
   "summary": {
@@ -11,10 +11,46 @@
     "windowEnd": "23:59",
     "checkIntervalSeconds": 60,
     "publishIntervalMinutes": 10,
-    "successCount": 2,
+    "successCount": 8,
     "failCount": 2
   },
   "history": [
+    {
+      "checkedAt": "2026-06-22T10:19:10+09:00",
+      "status": "success",
+      "latencyMs": 598,
+      "message": "ログイン確認成功"
+    },
+    {
+      "checkedAt": "2026-06-22T10:18:09+09:00",
+      "status": "success",
+      "latencyMs": 638,
+      "message": "ログイン確認成功"
+    },
+    {
+      "checkedAt": "2026-06-22T10:17:10+09:00",
+      "status": "success",
+      "latencyMs": 646,
+      "message": "ログイン確認成功"
+    },
+    {
+      "checkedAt": "2026-06-22T10:16:12+09:00",
+      "status": "success",
+      "latencyMs": 786,
+      "message": "ログイン確認成功"
+    },
+    {
+      "checkedAt": "2026-06-22T10:15:10+09:00",
+      "status": "success",
+      "latencyMs": 617,
+      "message": "ログイン確認成功"
+    },
+    {
+      "checkedAt": "2026-06-22T10:14:09+09:00",
+      "status": "success",
+      "latencyMs": 567,
+      "message": "ログイン確認成功"
+    },
     {
       "checkedAt": "2026-06-22T10:13:55+09:00",
       "status": "success",
