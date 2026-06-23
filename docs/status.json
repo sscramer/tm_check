@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-23T08:50:09+09:00",
+  "generatedAt": "2026-06-23T09:00:10+09:00",
   "current": {
-    "checkedAt": "2026-06-23T08:49:09+09:00",
+    "checkedAt": "2026-06-23T08:59:09+09:00",
     "status": "success",
-    "latencyMs": 630,
+    "latencyMs": 622,
     "message": "ログイン確認成功",
     "checkType": "primary-window"
   },
@@ -15,10 +15,80 @@
     "outsideRetryIntervalMinutes": 10,
     "outsideRetryAttempts": 3,
     "publishIntervalMinutes": 10,
-    "successCount": 127,
+    "successCount": 137,
     "failCount": 0
   },
   "history": [
+    {
+      "checkedAt": "2026-06-23T08:59:09+09:00",
+      "status": "success",
+      "latencyMs": 622,
+      "message": "ログイン確認成功",
+      "checkType": "primary-window"
+    },
+    {
+      "checkedAt": "2026-06-23T08:58:09+09:00",
+      "status": "success",
+      "latencyMs": 566,
+      "message": "ログイン確認成功",
+      "checkType": "primary-window"
+    },
+    {
+      "checkedAt": "2026-06-23T08:57:09+09:00",
+      "status": "success",
+      "latencyMs": 681,
+      "message": "ログイン確認成功",
+      "checkType": "primary-window"
+    },
+    {
+      "checkedAt": "2026-06-23T08:56:09+09:00",
+      "status": "success",
+      "latencyMs": 577,
+      "message": "ログイン確認成功",
+      "checkType": "primary-window"
+    },
+    {
+      "checkedAt": "2026-06-23T08:55:09+09:00",
+      "status": "success",
+      "latencyMs": 682,
+      "message": "ログイン確認成功",
+      "checkType": "primary-window"
+    },
+    {
+      "checkedAt": "2026-06-23T08:54:09+09:00",
+      "status": "success",
+      "latencyMs": 596,
+      "message": "ログイン確認成功",
+      "checkType": "primary-window"
+    },
+    {
+      "checkedAt": "2026-06-23T08:53:09+09:00",
+      "status": "success",
+      "latencyMs": 586,
+      "message": "ログイン確認成功",
+      "checkType": "primary-window"
+    },
+    {
+      "checkedAt": "2026-06-23T08:52:09+09:00",
+      "status": "success",
+      "latencyMs": 578,
+      "message": "ログイン確認成功",
+      "checkType": "primary-window"
+    },
+    {
+      "checkedAt": "2026-06-23T08:51:09+09:00",
+      "status": "success",
+      "latencyMs": 638,
+      "message": "ログイン確認成功",
+      "checkType": "primary-window"
+    },
+    {
+      "checkedAt": "2026-06-23T08:50:09+09:00",
+      "status": "success",
+      "latencyMs": 652,
+      "message": "ログイン確認成功",
+      "checkType": "primary-window"
+    },
     {
       "checkedAt": "2026-06-23T08:49:09+09:00",
       "status": "success",
@@ -774,66 +844,6 @@
       "checkedAt": "2026-06-22T10:29:10+09:00",
       "status": "success",
       "latencyMs": 572,
-      "message": "ログイン確認成功"
-    },
-    {
-      "checkedAt": "2026-06-22T10:28:10+09:00",
-      "status": "success",
-      "latencyMs": 610,
-      "message": "ログイン確認成功"
-    },
-    {
-      "checkedAt": "2026-06-22T10:27:02+09:00",
-      "status": "success",
-      "latencyMs": 814,
-      "message": "ログイン確認成功"
-    },
-    {
-      "checkedAt": "2026-06-22T10:26:02+09:00",
-      "status": "success",
-      "latencyMs": 721,
-      "message": "ログイン確認成功"
-    },
-    {
-      "checkedAt": "2026-06-22T10:25:01+09:00",
-      "status": "success",
-      "latencyMs": 710,
-      "message": "ログイン確認成功"
-    },
-    {
-      "checkedAt": "2026-06-22T10:24:00+09:00",
-      "status": "success",
-      "latencyMs": 606,
-      "message": "ログイン確認成功"
-    },
-    {
-      "checkedAt": "2026-06-22T10:23:01+09:00",
-      "status": "success",
-      "latencyMs": 648,
-      "message": "ログイン確認成功"
-    },
-    {
-      "checkedAt": "2026-06-22T10:22:10+09:00",
-      "status": "success",
-      "latencyMs": 649,
-      "message": "ログイン確認成功"
-    },
-    {
-      "checkedAt": "2026-06-22T10:21:07+09:00",
-      "status": "success",
-      "latencyMs": 619,
-      "message": "ログイン確認成功"
-    },
-    {
-      "checkedAt": "2026-06-22T10:20:10+09:00",
-      "status": "success",
-      "latencyMs": 675,
-      "message": "ログイン確認成功"
-    },
-    {
-      "checkedAt": "2026-06-22T10:19:10+09:00",
-      "status": "success",
-      "latencyMs": 598,
       "message": "ログイン確認成功"
     }
   ]
