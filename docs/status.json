@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-10T10:10:09+09:00",
+  "generatedAt": "2026-07-10T11:10:00+09:00",
   "current": {
-    "checkedAt": "2026-07-10T10:00:10+09:00",
+    "checkedAt": "2026-07-10T11:00:10+09:00",
     "status": "success",
-    "latencyMs": 722,
+    "latencyMs": 706,
     "message": "ログイン確認成功",
     "checkType": "outside-hourly"
   },
@@ -19,6 +19,13 @@
     "failCount": 0
   },
   "history": [
+    {
+      "checkedAt": "2026-07-10T11:00:10+09:00",
+      "status": "success",
+      "latencyMs": 706,
+      "message": "ログイン確認成功",
+      "checkType": "outside-hourly"
+    },
     {
       "checkedAt": "2026-07-10T10:00:10+09:00",
       "status": "success",
@@ -849,13 +856,6 @@
       "checkedAt": "2026-07-09T08:56:09+09:00",
       "status": "success",
       "latencyMs": 541,
-      "message": "ログイン確認成功",
-      "checkType": "primary-window"
-    },
-    {
-      "checkedAt": "2026-07-09T08:55:10+09:00",
-      "status": "success",
-      "latencyMs": 557,
       "message": "ログイン確認成功",
       "checkType": "primary-window"
     }
