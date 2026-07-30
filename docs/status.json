@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-31T08:40:10+09:00",
+  "generatedAt": "2026-07-31T08:50:09+09:00",
   "current": {
-    "checkedAt": "2026-07-31T08:39:09+09:00",
+    "checkedAt": "2026-07-31T08:49:01+09:00",
     "status": "success",
-    "latencyMs": 580,
+    "latencyMs": 698,
     "message": "ログイン確認成功",
     "checkType": "primary-window"
   },
@@ -19,6 +19,76 @@
     "failCount": 0
   },
   "history": [
+    {
+      "checkedAt": "2026-07-31T08:49:01+09:00",
+      "status": "success",
+      "latencyMs": 698,
+      "message": "ログイン確認成功",
+      "checkType": "primary-window"
+    },
+    {
+      "checkedAt": "2026-07-31T08:48:00+09:00",
+      "status": "success",
+      "latencyMs": 682,
+      "message": "ログイン確認成功",
+      "checkType": "primary-window"
+    },
+    {
+      "checkedAt": "2026-07-31T08:47:09+09:00",
+      "status": "success",
+      "latencyMs": 510,
+      "message": "ログイン確認成功",
+      "checkType": "primary-window"
+    },
+    {
+      "checkedAt": "2026-07-31T08:46:09+09:00",
+      "status": "success",
+      "latencyMs": 480,
+      "message": "ログイン確認成功",
+      "checkType": "primary-window"
+    },
+    {
+      "checkedAt": "2026-07-31T08:45:09+09:00",
+      "status": "success",
+      "latencyMs": 488,
+      "message": "ログイン確認成功",
+      "checkType": "primary-window"
+    },
+    {
+      "checkedAt": "2026-07-31T08:44:10+09:00",
+      "status": "success",
+      "latencyMs": 530,
+      "message": "ログイン確認成功",
+      "checkType": "primary-window"
+    },
+    {
+      "checkedAt": "2026-07-31T08:43:01+09:00",
+      "status": "success",
+      "latencyMs": 636,
+      "message": "ログイン確認成功",
+      "checkType": "primary-window"
+    },
+    {
+      "checkedAt": "2026-07-31T08:42:09+09:00",
+      "status": "success",
+      "latencyMs": 501,
+      "message": "ログイン確認成功",
+      "checkType": "primary-window"
+    },
+    {
+      "checkedAt": "2026-07-31T08:41:09+09:00",
+      "status": "success",
+      "latencyMs": 571,
+      "message": "ログイン確認成功",
+      "checkType": "primary-window"
+    },
+    {
+      "checkedAt": "2026-07-31T08:40:10+09:00",
+      "status": "success",
+      "latencyMs": 586,
+      "message": "ログイン確認成功",
+      "checkType": "primary-window"
+    },
     {
       "checkedAt": "2026-07-31T08:39:09+09:00",
       "status": "success",
@@ -786,76 +856,6 @@
       "checkedAt": "2026-07-30T08:43:10+09:00",
       "status": "success",
       "latencyMs": 465,
-      "message": "ログイン確認成功",
-      "checkType": "primary-window"
-    },
-    {
-      "checkedAt": "2026-07-30T08:42:10+09:00",
-      "status": "success",
-      "latencyMs": 444,
-      "message": "ログイン確認成功",
-      "checkType": "primary-window"
-    },
-    {
-      "checkedAt": "2026-07-30T08:41:10+09:00",
-      "status": "success",
-      "latencyMs": 488,
-      "message": "ログイン確認成功",
-      "checkType": "primary-window"
-    },
-    {
-      "checkedAt": "2026-07-30T08:40:11+09:00",
-      "status": "success",
-      "latencyMs": 531,
-      "message": "ログイン確認成功",
-      "checkType": "primary-window"
-    },
-    {
-      "checkedAt": "2026-07-30T08:39:02+09:00",
-      "status": "success",
-      "latencyMs": 630,
-      "message": "ログイン確認成功",
-      "checkType": "primary-window"
-    },
-    {
-      "checkedAt": "2026-07-30T08:38:10+09:00",
-      "status": "success",
-      "latencyMs": 460,
-      "message": "ログイン確認成功",
-      "checkType": "primary-window"
-    },
-    {
-      "checkedAt": "2026-07-30T08:37:09+09:00",
-      "status": "success",
-      "latencyMs": 466,
-      "message": "ログイン確認成功",
-      "checkType": "primary-window"
-    },
-    {
-      "checkedAt": "2026-07-30T08:36:10+09:00",
-      "status": "success",
-      "latencyMs": 453,
-      "message": "ログイン確認成功",
-      "checkType": "primary-window"
-    },
-    {
-      "checkedAt": "2026-07-30T08:35:11+09:00",
-      "status": "success",
-      "latencyMs": 659,
-      "message": "ログイン確認成功",
-      "checkType": "primary-window"
-    },
-    {
-      "checkedAt": "2026-07-30T08:34:02+09:00",
-      "status": "success",
-      "latencyMs": 591,
-      "message": "ログイン確認成功",
-      "checkType": "primary-window"
-    },
-    {
-      "checkedAt": "2026-07-30T08:33:09+09:00",
-      "status": "success",
-      "latencyMs": 489,
       "message": "ログイン確認成功",
       "checkType": "primary-window"
     }
