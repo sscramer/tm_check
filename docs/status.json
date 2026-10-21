@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-22T03:20:13+09:00",
+  "generatedAt": "2026-10-22T03:30:13+09:00",
   "current": {
-    "checkedAt": "2026-10-22T03:11:13+09:00",
+    "checkedAt": "2026-10-22T03:22:13+09:00",
     "status": "fail",
-    "latencyMs": 111,
+    "latencyMs": 114,
     "message": "monitor check failed",
     "checkType": "outside-retry"
   },
@@ -15,10 +15,17 @@
     "outsideRetryIntervalMinutes": 10,
     "outsideRetryAttempts": 3,
     "publishIntervalMinutes": 10,
-    "successCount": 226,
-    "failCount": 14
+    "successCount": 225,
+    "failCount": 15
   },
   "history": [
+    {
+      "checkedAt": "2026-10-22T03:22:13+09:00",
+      "status": "fail",
+      "latencyMs": 114,
+      "message": "monitor check failed",
+      "checkType": "outside-retry"
+    },
     {
       "checkedAt": "2026-10-22T03:11:13+09:00",
       "status": "fail",
@@ -851,13 +858,6 @@
       "latencyMs": 675,
       "message": "ログイン確認成功",
       "checkType": "primary-window"
-    },
-    {
-      "checkedAt": "2026-10-21T07:00:13+09:00",
-      "status": "success",
-      "latencyMs": 683,
-      "message": "ログイン確認成功",
-      "checkType": "outside-hourly"
     }
   ]
 }
